@@ -1,0 +1,17 @@
+﻿<Window x:Class="Notes.NoteWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Notes"
+        mc:Ignorable="d"
+        Title="Window1" Height="258.18" Width="298.302">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="21*"/>
+            <ColumnDefinition Width="68*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="NoteContentTextBox" HorizontalAlignment="Left" Height="200" Margin="10,10,-3,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="260" Grid.ColumnSpan="2"/>
+
+    </Grid>
+</Window>
